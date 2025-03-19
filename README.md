@@ -25,7 +25,6 @@ Ejecuta los siguientes comandos en la terminal de Windows (PowerShell o CMD):
 
 ```sh
 pip install opencv-python
-pip install cmake
 pip install dlib
 pip install face_recognition
 ```
