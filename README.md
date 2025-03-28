@@ -10,7 +10,7 @@ Sistema que permite registrar y reconocer rostros utilizando OpenCV y la librer�
 
 Para que el proyecto funcione correctamente, es necesario instalar:
 
-1. **Python** (versión 3.8 o superior)
+1. **Python** (versión 3.12.3)
 2. **Visual Studio Build Tools** con:
    - C++ CMake tools for Windows
    - Windows 10 SDK
