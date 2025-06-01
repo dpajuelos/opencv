@@ -1,0 +1,21 @@
+app/rostros_registrados/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+*.db
+
+# Otros
+*.swp
+.DS_Store
