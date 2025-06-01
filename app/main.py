@@ -4,16 +4,17 @@ import subprocess
 import sys
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Función para ejecutar el script de registro de rostros
 def registrar_rostro():
     messagebox.showinfo("Registro", "Se abrirá la cámara para registrar un nuevo rostro.")
-    subprocess.run([sys.executable, "registro.py"])
+    ruta_registro = os.path.join(BASE_DIR, "registro.py")
+    subprocess.run([sys.executable, ruta_registro])
 
-# Función para ejecutar el script de reconocimiento facial
 def reconocer_rostro():
     messagebox.showinfo("Reconocimiento", "Se abrirá la cámara para reconocimiento facial.")
-    subprocess.run([sys.executable, "reconocimiento.py"])
-
+    ruta_reconocimiento = os.path.join(BASE_DIR, "reconocimiento.py")
+    subprocess.run([sys.executable, ruta_reconocimiento])
 # Función para salir de la aplicación
 def salir():
     if messagebox.askokcancel("Salir", "¿Estás seguro de que deseas salir?"):
