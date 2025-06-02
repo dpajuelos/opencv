@@ -1,6 +1,6 @@
-# 📸 Reconocimiento Facial con OpenCV y Face\_Recognition
+# 📸 Reconocimiento Facial con OpenCV y Face_Recognition
 
-Sistema que permite registrar y reconocer rostros utilizando OpenCV y la librería Face\_Recognition en Python. Captura y almacena múltiples imágenes por persona para mejorar la precisión del reconocimiento.
+Sistema que permite registrar y reconocer rostros utilizando OpenCV y la librería Face_Recognition en Python. Captura y almacena múltiples imágenes por persona para mejorar la precisión del reconocimiento.
 
 ---
 
@@ -17,16 +17,14 @@ Para que el proyecto funcione correctamente, es necesario instalar:
    - MSVC v142
 3. **CMake** (instalación manual, ver sección abajo)
 4. **Dlib** (para procesamiento de rostros)
-5. **Face\_Recognition** y **OpenCV**
+5. **Face_Recognition** y **OpenCV**
 
 ### 📥 Instalación de Dependencias en Windows
 
 Ejecuta los siguientes comandos en la terminal de Windows (PowerShell o CMD):
 
 ```sh
-pip install opencv-python
-pip install dlib
-pip install face_recognition
+pip install opencv-python face-recognition pillow numpy
 ```
 
 Si tienes problemas con `dlib`, asegúrate de tener las dependencias de Visual Studio correctamente instaladas.
@@ -78,4 +76,3 @@ La cámara detectará rostros y mostrará el nombre de la persona debajo de su r
 ---
 
 🎯 **Hecho con ❤️**
-
